@@ -1,5 +1,42 @@
 # Changelog
 
+## [2.1.0](https://github.com/lorenzodagostinoradicalbit/release-test/compare/v2.0.0...v2.1.0) (2024-06-11)
+
+
+### Features
+
+* aaaaa ([a12ddb4](https://github.com/lorenzodagostinoradicalbit/release-test/commit/a12ddb4abc541b95724c21646442754850b3b8b1))
+* added manifest ([dd063e1](https://github.com/lorenzodagostinoradicalbit/release-test/commit/dd063e1ae509f6fe944f11c3b468086e9d1184ff))
+* added release please ([b986244](https://github.com/lorenzodagostinoradicalbit/release-test/commit/b9862443c02247a10537be0f74fa72de09fc75ac))
+* merge main ([38ff908](https://github.com/lorenzodagostinoradicalbit/release-test/commit/38ff908e682bbd82e0bc097d77d26359d6d4f7d9))
+* moved in api dir ([a8b26f4](https://github.com/lorenzodagostinoradicalbit/release-test/commit/a8b26f422d6b8193f8d5d395ded67086843ca78d))
+* moved manifests ([6d8aa90](https://github.com/lorenzodagostinoradicalbit/release-test/commit/6d8aa90cdaf5e33cf51f064c6106c82696fa457d))
+* restore ([dfc5bd4](https://github.com/lorenzodagostinoradicalbit/release-test/commit/dfc5bd435399bfce7879408f951557227ed8dc62))
+* test python release ([6b64255](https://github.com/lorenzodagostinoradicalbit/release-test/commit/6b64255e2be3c22666012034bd5c3b753c767d50))
+* using release json file ([1fb3d8d](https://github.com/lorenzodagostinoradicalbit/release-test/commit/1fb3d8d4534f1d3c30e1b7b403c462603cf7c44e))
+* using release-please config file in root ([00f4079](https://github.com/lorenzodagostinoradicalbit/release-test/commit/00f4079d98fe865ae7bdf0f5f018672afc2cddc0))
+
+
+### Bug Fixes
+
+* aaaaa ([524f77d](https://github.com/lorenzodagostinoradicalbit/release-test/commit/524f77d32b7d44da3839ec23ab65a26f34f6e0e0))
+* aaaaaaa ([79b7c20](https://github.com/lorenzodagostinoradicalbit/release-test/commit/79b7c20054615654ad6bb0f71e5f46802e728104))
+* bad name ([7339c50](https://github.com/lorenzodagostinoradicalbit/release-test/commit/7339c50afd5f42d7dbc0a6aea52864ff6685decc))
+* bbbb ([dd31002](https://github.com/lorenzodagostinoradicalbit/release-test/commit/dd310020c1c52f2e21d1d1646c714f8e1601c281))
+* **ci:** add git config ([3762fe0](https://github.com/lorenzodagostinoradicalbit/release-test/commit/3762fe0ccd86579e7ea0d6e3f9a3aecbe0c6b1d9))
+* **ci:** change origin ([f124b58](https://github.com/lorenzodagostinoradicalbit/release-test/commit/f124b58b52d5b5a711d0e2579b3aa2ac659b2115))
+* **ci:** manage secret as output of step ([40d4330](https://github.com/lorenzodagostinoradicalbit/release-test/commit/40d4330ecb95b531775d1966990dceea9585f5c3))
+* **ci:** removed poetry lock command ([5f9b620](https://github.com/lorenzodagostinoradicalbit/release-test/commit/5f9b6205e9dcaf134df617843671e7555cb9db28))
+* **ci:** restore token ([c8fb03f](https://github.com/lorenzodagostinoradicalbit/release-test/commit/c8fb03fe9b10300ddb0f792478dc8c2f222ac24c))
+* **ci:** try to automatic update version in toml ([fc75e7a](https://github.com/lorenzodagostinoradicalbit/release-test/commit/fc75e7a64cf09dd9a3462e7555ad963cea3b4f37))
+* **ci:** typo ([9294d9f](https://github.com/lorenzodagostinoradicalbit/release-test/commit/9294d9f50a045143fb2b6f5f65748f4594e9bda5))
+* **ci:** typo ([e3fd052](https://github.com/lorenzodagostinoradicalbit/release-test/commit/e3fd052003ce1b6e616b02f9d659838a7a82c4dc))
+* **ci:** typo ([15bcef9](https://github.com/lorenzodagostinoradicalbit/release-test/commit/15bcef9a67224d8eaee0a9ca06d870e55a348a5b))
+* illegal characters ([8f66f4c](https://github.com/lorenzodagostinoradicalbit/release-test/commit/8f66f4c01d764cf79bd5f3b278d5e6c7c46b7951))
+* release please ([4585193](https://github.com/lorenzodagostinoradicalbit/release-test/commit/4585193a25be68962eaf26ba476435837a1e3c9a))
+* trigger wf on tag ([14955ba](https://github.com/lorenzodagostinoradicalbit/release-test/commit/14955ba9e2efd7523e3dd08b06b80cda214fc63f))
+* try node release type ([766ec3f](https://github.com/lorenzodagostinoradicalbit/release-test/commit/766ec3fde7ce220a27bbeef48a3a18869b48bcca))
+
 ## [1.10.1](https://github.com/lorenzodagostinoradicalbit/release-test/compare/v1.10.0...v1.10.1) (2024-06-11)
 
 
