@@ -15,7 +15,7 @@ jobs:
     steps:
     - name: Secret as output
       id: secret_as_output
-      run: echo "::set-output name=token::$SECRET"
+      run: echo "::set-output name=token::${{ secrets.GITHUB_PAT }}"
     - uses: googleapis/release-please-action@v4
       with:
         token: ${{ steps.secret_as_output.outputs.token }}
