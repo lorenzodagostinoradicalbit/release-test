@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.3.0](https://github.com/lorenzodagostinoradicalbit/release-test/compare/v1.2.0...v1.3.0) (2024-06-11)
+
+
+### Features
+
+* merge main ([38ff908](https://github.com/lorenzodagostinoradicalbit/release-test/commit/38ff908e682bbd82e0bc097d77d26359d6d4f7d9))
+
+
+### Bug Fixes
+
+* try node release type ([766ec3f](https://github.com/lorenzodagostinoradicalbit/release-test/commit/766ec3fde7ce220a27bbeef48a3a18869b48bcca))
+
 ## [1.2.0](https://github.com/lorenzodagostinoradicalbit/release-test/compare/v1.1.1...v1.2.0) (2024-06-11)
 
 
