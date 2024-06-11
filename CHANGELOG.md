@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.10.0](https://github.com/lorenzodagostinoradicalbit/release-test/compare/v1.9.0...v1.10.0) (2024-06-11)
+
+
+### Features
+
+* using release-please config file in root ([00f4079](https://github.com/lorenzodagostinoradicalbit/release-test/commit/00f4079d98fe865ae7bdf0f5f018672afc2cddc0))
+
 ## [1.9.0](https://github.com/lorenzodagostinoradicalbit/release-test/compare/v1.8.0...v1.9.0) (2024-06-11)
 
 
