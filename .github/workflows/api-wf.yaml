@@ -50,4 +50,4 @@ jobs:
     secrets:
       USERNAME: ${{ secrets.DOCKER_HUB_USER }}
       PASSWORD: ${{ secrets.DOCKER_HUB_PAT }}
-      ORGANIZATION: ${{ secrets.DOCKER_HUB_ORG }}
+      ORGANIZATION: ${{ secrets.DOCKER_HUB_ORG }}        
