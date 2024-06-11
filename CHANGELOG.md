@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.0](https://github.com/lorenzodagostinoradicalbit/release-test/compare/v1.1.1...v1.2.0) (2024-06-11)
+
+
+### Features
+
+* moved in api dir ([a8b26f4](https://github.com/lorenzodagostinoradicalbit/release-test/commit/a8b26f422d6b8193f8d5d395ded67086843ca78d))
+* test python release ([6b64255](https://github.com/lorenzodagostinoradicalbit/release-test/commit/6b64255e2be3c22666012034bd5c3b753c767d50))
+
 ## [1.1.1](https://github.com/lorenzodagostinoradicalbit/release-test/compare/v1.1.0...v1.1.1) (2024-06-11)
 
 
