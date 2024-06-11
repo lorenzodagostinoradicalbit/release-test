@@ -63,7 +63,10 @@ jobs:
           npm version --prefix ./ui --allow-same-version ${VERSION#v}
       - name: Commit changes
         run: |
-          git add api/pyproject.toml
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git checkout main
+          git add .
           git commit -m "Bump version to ${{ needs.release-please.outputs.major }}.${{ needs.release-please.outputs.minor }}.${{ needs.release-please.outputs.patch }}"
           git push
 
