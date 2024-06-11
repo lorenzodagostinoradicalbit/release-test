@@ -52,6 +52,7 @@ jobs:
             echo "version=${version#v}" >> $GITHUB_OUTPUT
           else
             echo "version=${version}" >> $GITHUB_OUTPUT
+          fi
     
   build-be:
     needs: [test, format-version]
