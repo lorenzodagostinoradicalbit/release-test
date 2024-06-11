@@ -47,11 +47,11 @@ jobs:
     steps:
       - id: format-version
         run:
-          export version=${{ github.ref_name }};
-          if [[ $version == v* ]]; then;
-            echo "version=${version#v}" >> $GITHUB_OUTPUT;
-          else;
-            echo "version=${version}" >> $GITHUB_OUTPUT;
+          export version=${{ github.ref_name }}
+          if [[ $version == v* ]]; then
+            echo "version=${version#v}" >> $GITHUB_OUTPUT
+          else
+            echo "version=${version}" >> $GITHUB_OUTPUT
           fi
     
   build-be:
