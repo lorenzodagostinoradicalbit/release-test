@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.10.1](https://github.com/lorenzodagostinoradicalbit/release-test/compare/v1.10.0...v1.10.1) (2024-06-11)
+
+
+### Bug Fixes
+
+* release please ([4585193](https://github.com/lorenzodagostinoradicalbit/release-test/commit/4585193a25be68962eaf26ba476435837a1e3c9a))
+
 ## [1.10.0](https://github.com/lorenzodagostinoradicalbit/release-test/compare/v1.9.0...v1.10.0) (2024-06-11)
 
 
