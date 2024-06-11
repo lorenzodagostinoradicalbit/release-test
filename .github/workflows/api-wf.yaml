@@ -16,6 +16,9 @@ env:
 jobs:
   test:
     runs-on: ubuntu-22.04
+    defaults:
+      run:
+        working-directory: ./api
     steps:
       - uses: actions/checkout@v4
       - name: Set up Python
@@ -41,7 +44,7 @@ jobs:
     uses: ./.github/workflows/docker.yaml
     with:
       push: ${{ github.event_name != 'pull_request' }}
-      context: .
+      context: ./api
       image: test-be
       tag: ${{ startsWith(github.ref, 'refs/tags/v') && github.ref_name || 'latest' }}
     secrets:
