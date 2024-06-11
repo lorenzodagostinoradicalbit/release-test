@@ -26,7 +26,7 @@ jobs:
       id: release
       with:
         release-type: simple
-        token: ${{ secrets.GUTHUB_TOKEN }}
+        token: ${{ secrets.GUTHUB_PAT }}
   
   delete-tag:
     needs: [release-please]
