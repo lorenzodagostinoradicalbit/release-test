@@ -1,10 +1,14 @@
 {
   "packages": {
-    "ui": {
-      "release-type": "node"
-    },
-    "api": {
-      "release-type": "python"
+    ".": {
+      "extra-files": [
+        {
+          "type": "json",
+          "path": "ui/package.json",
+          "jsonpath": "$.version"
+        },
+        "api/pyproject.toml"
+      ]
     }
   }
 }
