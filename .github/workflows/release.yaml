@@ -60,7 +60,7 @@ jobs:
       - name: Update version
         run: |
           export VERSION=${{ needs.release-please.outputs.major }}.${{ needs.release-please.outputs.minor }}.${{ needs.release-please.outputs.patch }}
-          poetry version ${VERSION#v}
+          poetry version --directory ./api ${VERSION#v}
           npm version --prefix ./ui --allow-same-version ${VERSION#v}
       - name: Commit changes
         run: |
