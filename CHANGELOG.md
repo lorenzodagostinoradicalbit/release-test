@@ -1,5 +1,20 @@
 # Changelog
 
+## [2.2.0](https://github.com/lorenzodagostinoradicalbit/release-test/compare/v2.1.0...v2.2.0) (2024-06-11)
+
+
+### Features
+
+* added platforms in docker ([a87ad9f](https://github.com/lorenzodagostinoradicalbit/release-test/commit/a87ad9fd3456367b7d7af88fe080827f30be2ebb))
+
+
+### Bug Fixes
+
+* add | in format run ([4ce2c35](https://github.com/lorenzodagostinoradicalbit/release-test/commit/4ce2c357e4ab5e3cd7ee150e1493790ac14482cf))
+* **ci:** try to fix the error ([104a870](https://github.com/lorenzodagostinoradicalbit/release-test/commit/104a8708d8b9f87864fbd2f5cdb315d663460cb8))
+* if statement ([7793548](https://github.com/lorenzodagostinoradicalbit/release-test/commit/77935486a7a0e71055039dab02369585c0e3321a))
+* if statement ([e22e821](https://github.com/lorenzodagostinoradicalbit/release-test/commit/e22e821709be92458ea13d176a0a39341518ef63))
+
 ## [2.1.0](https://github.com/lorenzodagostinoradicalbit/release-test/compare/v2.0.0...v2.1.0) (2024-06-11)
 
 
