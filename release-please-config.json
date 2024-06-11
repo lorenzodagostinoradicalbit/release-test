@@ -1,9 +1,9 @@
 {
   "packages": {
-    "./ui": {
+    "ui": {
       "release-type": "node"
     },
-    "./api": {
+    "api": {
       "release-type": "python"
     }
   }
