@@ -5,15 +5,9 @@ on:
       - 'v*.*.*'
     branches:
     - "main"
-    paths:
-      - "release_test/**"
-      - ".github/workflows/api-**"
   pull_request:
     branches:
     - "*"
-    paths:
-      - "release_test/**"
-      - ".github/workflows/api-**"
 
 env:
   POETRY_VERSION: "1.8.3"
