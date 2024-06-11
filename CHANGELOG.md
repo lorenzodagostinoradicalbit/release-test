@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.2.1](https://github.com/lorenzodagostinoradicalbit/release-test/compare/v2.2.0...v2.2.1) (2024-06-11)
+
+
+### Bug Fixes
+
+* added regex ([9085e0d](https://github.com/lorenzodagostinoradicalbit/release-test/commit/9085e0d183c4c053a8f90625049a52ac636b45f6))
+
 ## [2.2.0](https://github.com/lorenzodagostinoradicalbit/release-test/compare/v2.1.0...v2.2.0) (2024-06-11)
 
 
