@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/lorenzodagostinoradicalbit/release-test/compare/v1.1.0...v1.1.1) (2024-06-11)
+
+
+### Bug Fixes
+
+* **ci:** try to automatic update version in toml ([fc75e7a](https://github.com/lorenzodagostinoradicalbit/release-test/commit/fc75e7a64cf09dd9a3462e7555ad963cea3b4f37))
+
 ## [1.1.0](https://github.com/lorenzodagostinoradicalbit/release-test/compare/v1.0.0...v1.1.0) (2024-06-11)
 
 
