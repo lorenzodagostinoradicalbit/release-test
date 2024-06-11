@@ -54,7 +54,6 @@ jobs:
       - name: Setup poetry
         run: |
           curl -sSL https://install.python-poetry.org | POETRY_VERSION=${{ env.POETRY_VERSION }} python -
-          poetry lock
       - name: Setup npm
         uses: actions/setup-node@v3
       - name: Update version
