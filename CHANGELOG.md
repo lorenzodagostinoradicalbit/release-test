@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.3.1](https://github.com/lorenzodagostinoradicalbit/release-test/compare/v1.3.0...v1.3.1) (2024-06-11)
+
+
+### Bug Fixes
+
+* bad name ([7339c50](https://github.com/lorenzodagostinoradicalbit/release-test/commit/7339c50afd5f42d7dbc0a6aea52864ff6685decc))
+* **ci:** restore token ([c8fb03f](https://github.com/lorenzodagostinoradicalbit/release-test/commit/c8fb03fe9b10300ddb0f792478dc8c2f222ac24c))
+* **ci:** typo ([9294d9f](https://github.com/lorenzodagostinoradicalbit/release-test/commit/9294d9f50a045143fb2b6f5f65748f4594e9bda5))
+
 ## [1.3.0](https://github.com/lorenzodagostinoradicalbit/release-test/compare/v1.2.0...v1.3.0) (2024-06-11)
 
 
