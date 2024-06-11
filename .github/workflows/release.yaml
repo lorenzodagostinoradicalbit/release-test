@@ -13,7 +13,10 @@ jobs:
   release-please:
     runs-on: ubuntu-latest
     steps:
+    - name: Secret as output
+      id: secret_as_output
+      run: echo "::set-output name=token::$SECRET"
     - uses: googleapis/release-please-action@v4
       with:
-        token: ${{ secrets.GITHUB_PAT }}
+        token: ${{ steps.secret_as_output.outputs.token }}
         release-type: simple
