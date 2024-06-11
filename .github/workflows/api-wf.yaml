@@ -46,7 +46,7 @@ jobs:
       version: ${{ steps.format-version.outputs.version }}
     steps:
       - id: format-version
-        run:
+        run: |
           export version=${{ github.ref_name }}
           if [[ $version == v* ]]; then
             echo "version=${version#v}" >> $GITHUB_OUTPUT
