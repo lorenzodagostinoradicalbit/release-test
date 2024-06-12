@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.2.2](https://github.com/lorenzodagostinoradicalbit/release-test/compare/v2.2.1...v2.2.2) (2024-06-12)
+
+
+### Bug Fixes
+
+* **test:** added some tests ([b7350e5](https://github.com/lorenzodagostinoradicalbit/release-test/commit/b7350e55ec0f8c08e9e6225fe4abd0c993e873f7))
+
 ## [2.2.1](https://github.com/lorenzodagostinoradicalbit/release-test/compare/v2.2.0...v2.2.1) (2024-06-11)
 
 
