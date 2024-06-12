@@ -69,7 +69,7 @@ jobs:
     
   build-be:
     needs: [test, format-version]
-    # if: ${{ github.event_name == 'push' || ( github.event_name == 'pull_request' && !contains(github.event.pull_request.labels.*.name, 'autorelease:pending') ) }}
+    if: ${{ github.event_name == 'push' || ( github.event_name == 'pull_request' && !contains(github.event.pull_request.labels.*.name, 'autorelease: pending') ) }}
     uses: ./.github/workflows/docker.yaml
     with:
       push: ${{ github.event_name != 'pull_request' }}
