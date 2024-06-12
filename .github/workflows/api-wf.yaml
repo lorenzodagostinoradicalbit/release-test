@@ -62,14 +62,15 @@ jobs:
           echo ${{ github.event.head_commit.message }}
           echo ${{ github.event_name }}
           echo ${{ github.ref_name }}
-          export labels=${{ github.event.pull_request.labels.*.name }}
+          export labels=${{ github.event.pull_request.labels }}
+          echo $labels
           for label in $labels; do
             echo $label
           done
     
   build-be:
     needs: [test, format-version]
-    if: ${{ github.event_name == 'push' || !contains(github.event.pull_request.labels.*.name, 'autorelease') }}
+    # if: ${{ github.event_name == 'push' || ( github.event_name == 'pull_request' && !contains(github.event.pull_request.labels.*.name, 'autorelease:pending') ) }}
     uses: ./.github/workflows/docker.yaml
     with:
       push: ${{ github.event_name != 'pull_request' }}
