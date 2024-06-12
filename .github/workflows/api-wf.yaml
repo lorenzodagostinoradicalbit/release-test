@@ -62,11 +62,10 @@ jobs:
           echo ${{ github.event.head_commit.message }}
           echo ${{ github.event_name }}
           echo ${{ github.ref_name }}
-          export labels=${{ github.event.pull_request.labels }}
-          echo $labels
-          for label in $labels; do
-            echo $label
-          done
+          export labels=${{ github.event.pull_request.labels.*.name }}
+          echo ${{ contains(github.event.pull_request.labels.*.name, 'autorelease') }}
+          echo ${{ contains(github.event.pull_request.labels.*.name, 'autorelease:pending') }}
+          echo ${{ contains(github.event.pull_request.labels.*.name, 'autorelease: pending') }}
     
   build-be:
     needs: [test, format-version]
