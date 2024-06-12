@@ -12,6 +12,7 @@ on:
 env:
   POETRY_VERSION: "1.8.3"
   PYTHON_VERSION: "3.11"
+  SKIP_LABEL: "autorelease: pending"
 
 jobs:
   test:
@@ -69,7 +70,7 @@ jobs:
     
   build-be:
     needs: [test, format-version]
-    if: ${{ github.event_name == 'push' || ( github.event_name == 'pull_request' && !contains(github.event.pull_request.labels.*.name, 'autorelease: pending') ) }}
+    if: ${{ github.event_name == 'push' || github.event_name == 'pull_request' && !contains(github.ref_name, 'release-please') }}
     uses: ./.github/workflows/docker.yaml
     with:
       push: ${{ github.event_name != 'pull_request' }}
