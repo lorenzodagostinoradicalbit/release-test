@@ -20,7 +20,7 @@ jobs:
     runs-on: ubuntu-latest
     if: ${{ github.event_name == 'issue_comment' }}
     env:
-      GITHUB_TOKEN: ${{ secrets.GIT_HUB_PAT }}
+      GITHUB_TOKEN: ${{ secrets.GUTHUB_PAT }}
     steps:
       - name: Comment on issue
         run: |
