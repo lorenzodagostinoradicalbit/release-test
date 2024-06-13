@@ -1,5 +1,6 @@
 {
   "release-type": "simple",
+  "release-as": "0.8.0",
   "bump-minor-pre-major": true,
   "bump-patch-for-minor-pre-major": true,
   "packages": {
