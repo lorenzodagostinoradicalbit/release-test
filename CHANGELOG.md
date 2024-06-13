@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.8.1](https://github.com/lorenzodagostinoradicalbit/release-test/compare/v0.8.0...v0.8.1) (2024-06-13)
+
+
+### Features
+
+* removed fixed release ([3cd4969](https://github.com/lorenzodagostinoradicalbit/release-test/commit/3cd4969bd9bfd3a8f933de59c847804e7b64ef0d))
+
 ## [0.8.0](https://github.com/lorenzodagostinoradicalbit/release-test/compare/v0.8.0...v0.8.0) (2024-06-13)
 
 
