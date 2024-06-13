@@ -14,5 +14,12 @@ jobs:
     secrets:
       USERNAME: ${{ secrets.DOCKER_HUB_USER }}
       PASSWORD: ${{ secrets.DOCKER_HUB_PAT }}
-      ORGANIZATION: ${{ secrets.DOCKER_HUB_ORG }}  
+      ORGANIZATION: ${{ secrets.DOCKER_HUB_ORG }}
+  
+  echo-job-url:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Echo
+        run: |
+          echo ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
   
